@@ -1,5 +1,7 @@
 
 *{
+    padding-left: inherit;
+    padding-right: inherit;
     background-color: #101010;
     color: aliceblue;
     font-family: 'Poppins', sans-serif;
