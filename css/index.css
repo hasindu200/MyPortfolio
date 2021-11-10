@@ -1,8 +1,8 @@
 
 *{
     background-color: #101010;
-
     color: aliceblue;
+    font-family: 'Poppins', sans-serif;
 }
 
 .leftpart {
@@ -14,4 +14,12 @@
     padding: 0 100px;
     padding-top: 100px;
     background-color: black;
+    font-size: 60px;
+}
+.details{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 300px;
+    margin-left: 770px;
+    font-size: 80px;
+    font-size-adjust: inherit;
 }
