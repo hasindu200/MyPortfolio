@@ -79,6 +79,13 @@ header .topSection .name{
     color: white;
 
 }
+header .topSection .name:hover{
+
+    padding-left: 60px;
+    color: yellow;
+
+}
+
 
 
 header .topSection .headerText{
@@ -107,6 +114,8 @@ header .navbar ul li a{
 header .navbar ul li a:hover{
 
     padding-left: 60px;
+    color: yellow;
+
 
 }
 .icon{
