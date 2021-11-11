@@ -7,7 +7,6 @@
     margin: 0; padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-
     outline: none;
     border: none;
     transition: all .2s linear;
@@ -53,7 +52,6 @@ header{
     background:#1a1a1a;
     display: flex;
     color: white;
-
     align-items: center;
     justify-content: center;
     flex-flow: column;
@@ -67,8 +65,7 @@ header .topSection img{
     width: 17rem;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: auto;
-    margin-top:auto;
+   margin-bottom: 1rem;
     border:0.8rem solid dimgrey;
 
 }
