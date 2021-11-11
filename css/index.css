@@ -48,7 +48,7 @@ header{
     top:0; left: 0;
     z-index: 1000;
     height: 100%;
-    width: 45rem;
+    width: 38rem;
     background:#1a1a1a;
     display: flex;
     color: white;
@@ -65,7 +65,8 @@ header .topSection img{
     width: 17rem;
     border-radius: 50%;
     object-fit: cover;
-   margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     border:0.8rem solid dimgrey;
 
 }
@@ -76,14 +77,13 @@ header .topSection .name{
     color: white;
 
 }
+
 header .topSection .name:hover{
 
     padding-left: 60px;
     color: yellow;
 
 }
-
-
 
 header .topSection .headerText{
 
@@ -108,13 +108,14 @@ header .navbar ul li a{
     color: white;
 
 }
+
 header .navbar ul li a:hover{
 
     padding-left: 60px;
     color: yellow;
 
-
 }
+
 .icon{
 
     display: inline-table ;
