@@ -11,6 +11,8 @@
     border: none;
     transition: all .2s linear;
 }
+
+
 /*change the selection color*/
 *::selection{
 
@@ -37,6 +39,7 @@ html::-webkit-scrollbar-thumb{
 }
 
 /*change the boy color to black*/
+
 body{
     background-color:black;
     overflow: hidden;
@@ -65,8 +68,8 @@ header .topSection img{
     width: 17rem;
     border-radius: 50%;
     object-fit: cover;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+  /*  margin-top: 0rem;
+    margin-bottom: 0rem;*/
     border:0.8rem solid dimgrey;
 
 }
@@ -75,6 +78,7 @@ header .topSection .name{
 
     font-size: 2.5rem;
     color: white;
+    margin-top:1rem;
 
 }
 
@@ -89,6 +93,8 @@ header .topSection .headerText{
 
     font-size: 1rem;
     color: white;
+    padding-bottom: 2rem;
+
 
 }
 
