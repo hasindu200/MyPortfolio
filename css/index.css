@@ -67,8 +67,8 @@ header .topSection img{
     width: 17rem;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: 1rem;
-    margin-top: 2rem;
+    margin-bottom: auto;
+    margin-top:auto;
     border:0.8rem solid dimgrey;
 
 }
