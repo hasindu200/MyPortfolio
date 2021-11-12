@@ -170,18 +170,76 @@ header .navbar ul li a:hover{
 
 .home h3{
 
-    font-size: 2.5rem;
+    font-size: 5rem;
     color: white;
-    padding-bottom: 1rem;
+
 
 }
 
 
 .home h1{
-
+    color: black;
     font-size: 5rem;
+
+
+}
+.wrapper{
+
+    box-sizing: content-box;
+    background-color: black;
+    height: 6rem;
+    padding: 2rem 1rem;
+    display: flex;
+
+}
+.im{
+    color: #f9ca24;
+    padding-right: 1.5rem;
+}
+span{
+
+    display: block;
+    height: 100%;
+    padding-left: 3rem;
+    border: 2px solid orange;
+    animation: spin_words 6s infinite;
+    
+}
+.word{
+    overflow: hidden;
     color: white;
-    padding-bottom: 1.5rem;
+    font-size: 3.5rem;
+}
+@keyframes spin_words{
+
+    10%{
+
+        transform: translateY(-112%);
+
+    }
+    25%{
+        transform: translateY(-100%);
+    }
+    35%{
+        transform: translateY(-212%);
+    }
+    50%{
+        transform: translateY(-200%);
+    }
+    60%{
+        transform: translateY(-312%);
+    }
+    75%{
+        transform: translateY(-300%);
+    }
+    85%{
+        transform: translateY(-412%);
+    }
+    100%{
+        transform: translateY(-400%);
+    }
+
+
 
 }
 
