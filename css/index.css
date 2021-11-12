@@ -22,7 +22,7 @@
 
 html{
 
-    font-size: 70.5%;
+    font-size: 62.5%;
     overflow-x: hidden;
 }
 
@@ -35,15 +35,30 @@ html::-webkit-scrollbar-track{
 }
 
 html::-webkit-scrollbar-thumb{
+
     background:var(--yellow);
+
 }
 
 /*change the boy color to black*/
 
 body{
+
     background-color:black;
     overflow: hidden;
+    padding-left: 35rem;
+
 }
+
+
+section{
+
+    min-height: 100vh;
+    padding: 1rem;
+
+}
+
+
 
 header{
 
@@ -92,7 +107,7 @@ header .topSection .headerText{
 
     font-size: 1rem;
     color: white;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 
 
 }
@@ -129,4 +144,102 @@ header .navbar ul li a:hover{
     width: 30px;
 }
 
+#menu{
+    
+    position:fixed;
+    top:2rem ; right: 2rem;
+    background: dimgrey;
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding: 1rem 1.5rem;
+    z-index: 1000;
+    display: none;
 
+}
+
+            /*Home Section*/
+
+
+.home{
+    color: #f9ca24;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding:0 15rem;
+}
+
+.home h3{
+
+    font-size: 2.5rem;
+    color: white;
+    padding-bottom: 1rem;
+
+}
+
+
+.home h1{
+
+    font-size: 5rem;
+    color: white;
+    padding-bottom: 1.5rem;
+
+}
+
+.home :hover{
+
+    padding-left: 10px;
+    color: yellow;
+
+}
+
+
+
+
+.socialLinks a{
+
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+
+    margin: 40px 15px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+
+
+
+}
+
+
+.socialLinks  a:hover{
+
+    padding-left: 10px;
+    color: yellow;
+
+}
+
+
+
+                                    /*mobile view */
+@media  (max-width: 1200px){
+
+    html{
+        font-size: 55%;
+    }
+    
+}
+
+@media  (max-width: 991px){
+
+    header{
+        left: -120%;
+    }
+    #menu{
+       display: block;
+    }
+
+}
+
+header.toggle{
+    left:0%;
+}
