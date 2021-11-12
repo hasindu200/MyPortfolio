@@ -169,8 +169,8 @@ header .navbar ul li a:hover{
 }
 
 .home h3{
-
-    font-size: 5rem;
+    padding-left:1rem;
+    font-size: 4rem;
     color: white;
 
 
@@ -178,6 +178,7 @@ header .navbar ul li a:hover{
 
 
 .home h1{
+    
     color: black;
     font-size: 5rem;
 
@@ -210,6 +211,11 @@ span{
     color: white;
     font-size: 3.5rem;
 }
+
+.myDetail{
+    padding-left: 1rem;
+}
+
 @keyframes spin_words{
 
     10%{
@@ -263,6 +269,7 @@ span{
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
+    padding-left: 1rem;
 
 
 
