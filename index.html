@@ -11,14 +11,12 @@
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
-    <!--
-        <script src="javaScript/script.js"></script>
-        -->
-    <!-- font awesome-->
+
     <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
           integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
           referrerpolicy="no-referrer" rel="stylesheet"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" rel="stylesheet"/>
+    <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <!--body start-->
@@ -62,7 +60,52 @@
 
 </header>
 
-<div class="fas fa-bars" id="menu"></div>
+                                            <!-- side navigation bar-->
+
+<div class="menu-btn">
+    <i class="fas fa-bars"></i>
+</div>
+
+
+
+
+<div class="side-bar">
+    <div class="close-btn">
+        <i class="fas fa-times"></i>
+    </div>
+    <div class="menu">
+        <div class="links"><a href="index.html"><i class="fas fa-desktop"></i>Home</a> </div>
+        <div class="links"><a href="about.html"><i class="fas fa-desktop"></i>About</a> </div>
+        <div class="links"><a href="education.html"><i class="fas fa-desktop"></i>Education</a> </div>
+        <div class="links"><a href="project.html"><i class="fas fa-desktop"></i>Project</a></div>
+        <div class="links"><a href="gallery.html"><i class="fas fa-desktop"></i>Gallery</a> </div>
+        <div class="links"><a href="contact.html"><i class="fas fa-desktop"></i>Contact</a> </div>
+
+    </div>
+</div>
+
+                <!--side bar Java Script -->
+
+<script type="text/javaScript">
+
+    $(document).ready(function name(params) {
+
+        $('.menu-btn').click(function() {
+            $('.side-bar').addClass('active');
+            $('.menu-btn').css("visibility","hidden");
+        });
+
+        $('.close-btn').click(function() {
+            $('.side-bar').removeClass('active');
+           $('.menu-btn').css("visibility","visible");
+        });
+
+    });
+
+
+</script>
+
+
 
 <!--   main section-->
 

@@ -1,10 +1,11 @@
-:root{
-    --yellow:#f9ca24;
+:root {
+    --yellow: #f9ca24;
 }
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
-    margin: 0; padding: 0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     outline: none;
@@ -14,44 +15,44 @@
 
 
 /*change the selection color*/
-*::selection{
+*::selection {
 
-    background:var(--yellow);
+    background: var(--yellow);
     color: #333;
 }
 
-html{
+html {
 
     font-size: 62.5%;
     overflow-x: hidden;
 }
 
-html::-webkit-scrollbar{
-    width:1.4rem;
+html::-webkit-scrollbar {
+    width: 1.4rem;
 }
 
-html::-webkit-scrollbar-track{
-    background:#222;
+html::-webkit-scrollbar-track {
+    background: #222;
 }
 
-html::-webkit-scrollbar-thumb{
+html::-webkit-scrollbar-thumb {
 
-    background:var(--yellow);
+    background: var(--yellow);
 
 }
 
 /*change the boy color to black*/
 
-body{
+body {
 
-    background-color:black;
+    background-color: black;
     overflow: hidden;
     padding-left: 35rem;
 
 }
 
 
-section{
+section {
 
     min-height: 100vh;
     padding: 1rem;
@@ -59,15 +60,15 @@ section{
 }
 
 
-
-header{
+header {
 
     position: fixed;
-    top:0; left: 0;
+    top: 0;
+    left: 0;
     z-index: 1000;
     height: 100%;
     width: 38rem;
-    background:#1a1a1a;
+    background: #1a1a1a;
     display: flex;
     color: white;
     align-items: center;
@@ -77,33 +78,33 @@ header{
 
 }
 
-header .topSection img{
+header .topSection img {
 
-    height:17rem;
+    height: 17rem;
     width: 17rem;
     border-radius: 50%;
     object-fit: cover;
     margin-top: 2rem;
-    border:0.8rem solid dimgrey;
+    border: 0.8rem solid dimgrey;
 
 }
 
-header .topSection .name{
+header .topSection .name {
 
     font-size: 2.5rem;
     color: white;
-    margin-top:1rem;
+    margin-top: 1rem;
 
 }
 
-header .topSection .name:hover{
+header .topSection .name:hover {
 
     padding-left: 60px;
     color: yellow;
 
 }
 
-header .topSection .headerText{
+header .topSection .headerText {
 
     font-size: 1rem;
     color: white;
@@ -112,42 +113,43 @@ header .topSection .headerText{
 
 }
 
-header .navbar ul{
+header .navbar ul {
 
     list-style: none;
 
 
 }
 
-header .navbar ul li a{
+header .navbar ul li a {
 
-    display:inline-table;
+    display: inline-table;
     padding: 0.1rem;
-    margin :0.6rem;
+    margin: 0.6rem;
     font-size: 2rem;
     color: white;
 
 }
 
-header .navbar ul li a:hover{
+header .navbar ul li a:hover {
 
     padding-left: 60px;
     color: yellow;
 
 }
 
-.icon{
+.icon {
 
-    display: inline-table ;
-    margin-right:20px;
+    display: inline-table;
+    margin-right: 20px;
     height: 30px;
     width: 30px;
 }
 
-#menu{
-    
-    position:fixed;
-    top:2rem ; right: 2rem;
+#menu {
+
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
     background: dimgrey;
     cursor: pointer;
     font-size: 2.5rem;
@@ -157,19 +159,20 @@ header .navbar ul li a:hover{
 
 }
 
-            /*Home Section*/
+/*Home Section*/
 
 
-.home{
+.home {
     color: #f9ca24;
     display: flex;
     justify-content: center;
     flex-flow: column;
-    padding:0 15rem;
+    padding: 0 15rem;
 }
 
-.home h3{
-    padding-left:1rem;
+.home h3 {
+
+    padding-left: 1rem;
     font-size: 4rem;
     color: white;
 
@@ -177,14 +180,15 @@ header .navbar ul li a:hover{
 }
 
 
-.home h1{
-    
+.home h1 {
+
     color: black;
     font-size: 5rem;
-
+   
 
 }
-.wrapper{
+
+.wrapper {
 
     box-sizing: content-box;
     background-color: black;
@@ -193,63 +197,70 @@ header .navbar ul li a:hover{
     display: flex;
 
 }
-.im{
+
+.im {
+
     color: #f9ca24;
     padding-right: 1.5rem;
+
 }
-span{
+
+span {
 
     display: block;
     height: 100%;
     padding-left: 3rem;
     border: 2px solid orange;
     animation: spin_words 6s infinite;
-    
+
+
 }
-.word{
+
+.word {
     overflow: hidden;
     color: white;
     font-size: 3.5rem;
 }
 
-.myDetail{
+.myDetail {
+
     padding-left: 1rem;
+
 }
 
-@keyframes spin_words{
+@keyframes spin_words {
 
-    10%{
+    10% {
 
         transform: translateY(-112%);
 
     }
-    25%{
+    25% {
         transform: translateY(-100%);
     }
-    35%{
+    35% {
         transform: translateY(-212%);
     }
-    50%{
+    50% {
         transform: translateY(-200%);
     }
-    60%{
+    60% {
         transform: translateY(-312%);
     }
-    75%{
+    75% {
         transform: translateY(-300%);
     }
-    85%{
+    85% {
         transform: translateY(-412%);
     }
-    100%{
+    100% {
         transform: translateY(-400%);
     }
 
 
-
 }
 
-.home :hover{
+.home :hover {
 
     padding-left: 10px;
     color: yellow;
@@ -257,9 +268,7 @@ span{
 }
 
 
-
-
-.socialLinks a{
+.socialLinks a {
 
     display: inline-block;
     height: 40px;
@@ -271,40 +280,178 @@ span{
     border-radius: 50%;
     padding-left: 1rem;
 
-
-
 }
 
 
-.socialLinks  a:hover{
+.socialLinks a:hover {
 
     padding-left: 10px;
     color: yellow;
 
 }
 
+/*side bar*/
 
 
-                                    /*mobile view */
-@media  (max-width: 1200px){
+.side-bar{
 
-    html{
+    background-color:rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    width: 290px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    overflow-y: auto;
+    transition: 0.8s ease;
+    transition-property: right;
+
+}
+.side-bar.active {
+    right: 0;
+
+}
+
+.side-bar .menu{
+
+    width: 100%;
+    margin-top: 80px;
+
+
+}
+.side-bar .menu .links{
+
+    position: relative;
+    cursor: pointer;
+}
+
+.side-bar .menu .links a{
+
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 5px 20px;
+    line-height: 60px;
+}
+
+.side-bar .menu .links a:hover{
+    padding-left: 10px;
+    color: yellow;
+}
+
+
+.side-bar .menu .links i{
+    margin-right: 2rem;
+}
+
+
+
+
+
+.close-btn{
+
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    left: 0;
+    margin :25px;
+    cursor: pointer;
+
+
+}
+
+
+
+.menu-btn{
+    display: none;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    margin: 25px;
+    cursor: pointer;
+    right: 0;
+}
+
+
+
+
+
+
+
+/*mobile view */
+
+
+@media (max-width: 1200px) {
+
+    html {
+
         font-size: 55%;
+
     }
-    
+
+    .home{
+
+        padding: 1rem 4rem;
+
+    }
+
 }
 
-@media  (max-width: 991px){
+@media (max-width: 991px) {
 
-    header{
+    header {
+
         left: -120%;
+
     }
-    #menu{
-       display: block;
+
+    #menu {
+
+        display: block;
+
     }
+
+    body{
+
+        padding: 0;
+
+    }
+    .word{
+
+        font-size: 2rem;
+
+    }
+    .wrapper{
+
+        background-color: black;
+        height: 6rem;
+        padding: 2rem 1rem;
+        display: flex;
+
+
+    }
+    span {
+
+        display:block;
+        height: 100%;
+        padding-left: 3rem;
+        padding-top: 1rem;
+        border: 2px solid orange;
+        animation: spin_words 6s infinite;
+
+    }
+
+    .menu-btn{
+        display: block;
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        margin: 25px;
+        cursor: pointer;
+        right: 0;
+    }
+
 
 }
 
-header.toggle{
-    left:0%;
-}
