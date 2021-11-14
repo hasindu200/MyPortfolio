@@ -343,7 +343,9 @@ span {
 .side-bar .menu .links i{
     margin-right: 2rem;
 }
-
+.topImg{
+    display: none;
+}
 
 
 .close-btn{
