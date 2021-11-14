@@ -413,6 +413,7 @@ span {
 
         padding: 0;
 
+
     }
 
     .word{
@@ -434,10 +435,13 @@ span {
 
         display:block;
         height: 100%;
-        padding-left: 3rem;
+        padding-left: 2rem;
+        font-size: 2.1rem;
         padding-top: 1rem;
-        border: 2px solid orange;
+        padding-bottom: 3rem;
+        border: 3px solid orange;
         animation: spin_words 6s infinite;
+
 
     }
 
@@ -453,15 +457,28 @@ span {
 
     .topImg{
         display: block;
-        height: 15rem;
-        width: 15rem;
+        height: 20rem;
+        width: 20rem;
         border-radius: 50%;
         object-fit: cover;
+      /*  margin-top: 1rem;
+        margin-bottom: 4rem;
+        margin-left: 6rem;*/
+       align-self: center;
+        margin-bottom: 2rem;
         margin-top: 2rem;
-        margin-bottom: 3rem;
+        border: 0.8rem solid #f9ca24;
 
-        border: 0.8rem solid dimgrey;
 
+    }
+
+
+    .home h3 {
+
+        align-self: center;
+        font-size: 5rem;
+        font-weight: bolder;
+        color: #f9ca24;
 
     }
 
