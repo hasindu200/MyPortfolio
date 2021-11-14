@@ -407,14 +407,14 @@ header .navbar ul li a:hover {
     display: flex;
     align-items: center;
     padding-left: 4rem;
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 
 .info-img{
 
     padding-right: 4rem;
-    height:40%;
-    width:40%;
+    height:40rem;
+    width:40rem;
 
 }
 
@@ -427,17 +427,16 @@ header .navbar ul li a:hover {
 .aboutInfo{
 
     justify-content:right ;
-    padding-top: 1rem;
-    font-size: 2.5rem;
+    padding-top: .05rem;
+    font-size: 2rem;
     color: #f9ca24;
-
 
 }
 
 .about .myAbout{
 
     color: white;
-   display: compact;
+    display: compact;
 }
 
 .aboutPara{
