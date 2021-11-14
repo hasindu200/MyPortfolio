@@ -410,7 +410,14 @@ header .navbar ul li a:hover {
     padding-left: 4rem;
     padding-top: 2rem;
 }
+.info-img{
 
+    padding-right: 4rem;
+    height:40rem;
+    width:40rem;
+
+
+}
 .info-img:hover{
 
     padding-left: 20px;
