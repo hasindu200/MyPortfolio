@@ -90,6 +90,10 @@ header .topSection img {
 
 }
 
+.topImg{
+    display: none;
+}
+
 header .topSection .name {
 
     font-size: 2.5rem;
@@ -342,9 +346,6 @@ span {
 
 .side-bar .menu .links i{
     margin-right: 2rem;
-}
-.topImg{
-    display: none;
 }
 
 
