@@ -14,7 +14,8 @@
 }
 
 
-/*change the selection color*/
+                                                            /*change the selection color*/
+
 *::selection {
 
     background: var(--yellow);
@@ -41,7 +42,7 @@ html::-webkit-scrollbar-thumb {
 
 }
 
-/*change the boy color to black*/
+                                                    /*change the boy color to black*/
 
 body {
 
@@ -159,7 +160,7 @@ header .navbar ul li a:hover {
 
 }
 
-/*Home Section*/
+                                                                /*Home Section*/
 
 
 .home {
@@ -176,7 +177,6 @@ header .navbar ul li a:hover {
     font-size: 4rem;
     color: white;
 
-
 }
 
 
@@ -184,7 +184,6 @@ header .navbar ul li a:hover {
 
     color: black;
     font-size: 5rem;
-   
 
 }
 
@@ -213,13 +212,14 @@ span {
     border: 2px solid orange;
     animation: spin_words 6s infinite;
 
-
 }
 
 .word {
+
     overflow: hidden;
     color: white;
     font-size: 3.5rem;
+
 }
 
 .myDetail {
@@ -273,7 +273,6 @@ span {
     display: inline-block;
     height: 40px;
     width: 40px;
-
     margin: 40px 15px 10px 0;
     text-align: center;
     line-height: 40px;
@@ -289,8 +288,7 @@ span {
     color: yellow;
 
 }
-
-/*side bar*/
+                                                           /*side bar*/
 
 
 .side-bar{
@@ -307,6 +305,7 @@ span {
     transition-property: right;
 
 }
+
 .side-bar.active {
     right: 0;
 
@@ -317,8 +316,8 @@ span {
     width: 100%;
     margin-top: 80px;
 
-
 }
+
 .side-bar .menu .links{
 
     position: relative;
@@ -347,8 +346,6 @@ span {
 
 
 
-
-
 .close-btn{
 
     position: absolute;
@@ -358,12 +355,12 @@ span {
     margin :25px;
     cursor: pointer;
 
-
 }
 
 
 
 .menu-btn{
+
     display: none;
     position: absolute;
     color: white;
@@ -371,15 +368,10 @@ span {
     margin: 25px;
     cursor: pointer;
     right: 0;
+
 }
 
-
-
-
-
-
-
-/*mobile view */
+                                                    /*mobile view */
 
 
 @media (max-width: 1200px) {
@@ -404,11 +396,13 @@ span {
 
         left: -120%;
 
+
     }
 
     #menu {
 
         display: block;
+
 
     }
 
@@ -417,11 +411,13 @@ span {
         padding: 0;
 
     }
+
     .word{
 
         font-size: 2rem;
 
     }
+
     .wrapper{
 
         background-color: black;
@@ -429,8 +425,8 @@ span {
         padding: 2rem 1rem;
         display: flex;
 
-
     }
+
     span {
 
         display:block;
@@ -450,6 +446,20 @@ span {
         margin: 25px;
         cursor: pointer;
         right: 0;
+    }
+
+    .topImg{
+
+        height: 15rem;
+        width: 15rem;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+
+        border: 0.8rem solid dimgrey;
+
+
     }
 
 
