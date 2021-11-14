@@ -411,14 +411,6 @@ header .navbar ul li a:hover {
     padding-top: 2rem;
 }
 
-.info-img{
-
-    padding-right: 4rem;
-    height:40rem;
-    width:40rem;
-
-
-}
 .info-img:hover{
 
     padding-left: 20px;
@@ -443,9 +435,12 @@ header .navbar ul li a:hover {
     color: #f9ca24;
 
 }
+
 .aboutInfo:hover{
+
     padding-left: 20px;
     padding-right: 20px;
+
 }
 
 .about .myAbout{
@@ -459,6 +454,14 @@ header .navbar ul li a:hover {
     padding-left: 4rem;
     padding-top: 4rem;
     font-size: 1.5rem;
+}
+
+.aboutPara:hover{
+
+    padding-left: 5px;
+    color: yellow;
+
+
 }
 
 
@@ -576,7 +579,47 @@ header .navbar ul li a:hover {
 
     }
 
-                                        /* End HOME mobile view home */
+                                 /*   About page*/
+
+    .info-img{
+
+        padding-right: 1rem;
+        height:20rem;
+        width:20rem;
+
+
+    }
+
+
+    .aboutInfo{
+
+        justify-content:right ;
+        padding-top: .05rem;
+        font-size: 1.3rem;
+        color: #f9ca24;
+
+    }
+
+
+
+    .about .row{
+
+        display: flex;
+        align-items: center;
+        padding-left: 4rem;
+        padding-right: 2rem;
+        padding-top: 6rem;
+    }
+
+
+    .aboutPara{
+
+        padding-right: 2rem;
+
+    }
+
+
+    /* End HOME mobile view home */
 
 
                                         /*    start About MOBILE View*/
