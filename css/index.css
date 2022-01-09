@@ -529,6 +529,7 @@ textarea.contact-form-text {
 
 @media (max-width: 991px) {
 
+
     header {
 
         left: -120%;
@@ -619,10 +620,13 @@ textarea.contact-form-text {
     .myDetail {
         color: white;
         padding-left: 1rem;
-        font-size: 2.5rem;
+        font-size: 2rem;
 
     }
 
+    .im {
+        font-size: 3.5rem;
+    }
 
     /*   About page*/
     .info-img {
@@ -638,7 +642,7 @@ textarea.contact-form-text {
 
         justify-content: right;
         padding-top: .05rem;
-        font-size: 1.4vH;
+        font-size: 1.3rem;
         color: #f9ca24;
 
     }
@@ -665,7 +669,7 @@ textarea.contact-form-text {
     .about .myAbout {
 
 
-        font-size: 2rem;
+        font-size: 1.5rem;
 
     }
 
@@ -677,6 +681,7 @@ textarea.contact-form-text {
 
 
         padding-top: 150px;
+       
 
     }
 
