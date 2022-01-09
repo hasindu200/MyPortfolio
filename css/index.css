@@ -453,6 +453,7 @@ header .navbar ul li a:hover {
     color: #ffb71b;
 }
 
+
 .contact-form {
 
     max-width: 600px;
@@ -615,13 +616,20 @@ textarea.contact-form-text {
 
     }
 
+    .myDetail {
+        color: white;
+        padding-left: 1rem;
+        font-size: 2.5rem;
+
+    }
+
+
     /*   About page*/
     .info-img {
 
         padding-right: 1rem;
-        height: 20rem;
-        width: 20rem;
-
+        height: 28vh;
+        width: 25vh;
 
     }
 
@@ -630,7 +638,7 @@ textarea.contact-form-text {
 
         justify-content: right;
         padding-top: .05rem;
-        font-size: 1.3rem;
+        font-size: 1.4vH;
         color: #f9ca24;
 
     }
@@ -650,12 +658,27 @@ textarea.contact-form-text {
 
         padding-right: 2rem;
 
+
+    }
+
+
+    .about .myAbout {
+
+
+        font-size: 2rem;
+
     }
 
 
     /* End HOME mobile view home */
     /*    start About MOBILE View*/
+    /* CONTACT PAGE*/
+    .contact-form {
 
+
+        padding-top: 150px;
+
+    }
 
 }
 
