@@ -15,7 +15,7 @@
 }
 
 
-                                                            /*change the selection color*/
+/*change the selection color*/
 
 *::selection {
 
@@ -43,7 +43,7 @@ html::-webkit-scrollbar-thumb {
 
 }
 
-                                                    /*change the boy color to black*/
+/*change the boy color to black*/
 
 body {
     scroll-behavior: smooth;
@@ -91,7 +91,7 @@ header .topSection img {
 
 }
 
-.topImg{
+.topImg {
 
     display: none;
 
@@ -167,7 +167,7 @@ header .navbar ul li a:hover {
 
 }
 
-                                                                /*Home Section*/
+/*Home Section*/
 
 
 .home {
@@ -230,9 +230,9 @@ header .navbar ul li a:hover {
 }
 
 .myDetail {
-
+    color: white;
     padding-left: 1rem;
-    font-size: 1.5rem;
+    font-size: 3.1rem;
 
 }
 
@@ -296,12 +296,13 @@ header .navbar ul li a:hover {
     color: yellow;
 
 }
-                                                           /*side bar*/
+
+/*side bar*/
 
 
-.side-bar{
+.side-bar {
 
-    background-color:rgba(255,255,255,0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(20px);
     width: 290px;
     height: 100vh;
@@ -319,20 +320,20 @@ header .navbar ul li a:hover {
 
 }
 
-.side-bar .menu{
+.side-bar .menu {
 
     width: 100%;
     margin-top: 80px;
 
 }
 
-.side-bar .menu .links{
+.side-bar .menu .links {
 
     position: relative;
     cursor: pointer;
 }
 
-.side-bar .menu .links a{
+.side-bar .menu .links a {
 
     color: #fff;
     font-size: 16px;
@@ -342,31 +343,30 @@ header .navbar ul li a:hover {
     line-height: 60px;
 }
 
-.side-bar .menu .links a:hover{
+.side-bar .menu .links a:hover {
     padding-left: 10px;
     color: yellow;
 }
 
 
-.side-bar .menu .links i{
+.side-bar .menu .links i {
     margin-right: 2rem;
 }
 
 
-.close-btn{
+.close-btn {
 
     position: absolute;
     color: white;
     font-size: 20px;
     left: 0;
-    margin :25px;
+    margin: 25px;
     cursor: pointer;
 
 }
 
 
-
-.menu-btn{
+.menu-btn {
 
     display: none;
     position: absolute;
@@ -379,106 +379,135 @@ header .navbar ul li a:hover {
 }
 
 
+/*    start About  View*/
 
 
-
-
-                                    /*    start About  View*/
-
-
-.aboutHeading{
+.aboutHeading {
 
     text-align: right;
     margin: 0.6rem;
     font-size: 3rem;
     padding: 1rem;
-    border-bottom: 1rem solid #f9ca24 ;
+    border-bottom: 1rem solid #f9ca24;
     color: white;
 
 }
 
-.aboutHeading Span{
+.aboutHeading Span {
 
     color: #f9ca24;
 
 }
 
-.about .row{
+.about .row {
 
     display: flex;
     align-items: center;
     padding-left: 4rem;
     padding-top: 2rem;
 }
-.info-img{
 
+.info-img {
+    padding-left: 1.5rem;
     padding-right: 4rem;
-    height:40rem;
-    width:40rem;
+    height: 45rem;
+    width: 40rem;
 
 
 }
-.info-img:hover{
-
-    padding-left: 20px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-}
 
 
-.aboutSpan{
+.aboutSpan {
 
     color: white;
 
 }
 
-.aboutInfo{
+.aboutInfo {
 
-    justify-content:right ;
-    padding-top: .05rem;
-    font-size: 2rem;
+    justify-content: right;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-size: 2.4rem;
     color: #f9ca24;
 
 }
 
-.aboutInfo:hover{
 
-    padding-left: 20px;
-    padding-right: 20px;
-
-}
-
-.about .myAbout{
+.about .myAbout {
 
     color: white;
+    font-size: 2.5rem;
     display: compact;
 }
 
-.aboutPara{
+.aboutPara {
 
     padding-left: 4rem;
     padding-top: 4rem;
     font-size: 1.5rem;
 }
 
-.aboutPara:hover{
 
-    padding-left: 5px;
-    color: yellow;
+.myAbout:hover {
+    color: #ffb71b;
+}
 
+.contact-form {
+
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+    padding-top: 50px;
 
 }
 
+.contact-form-text {
+
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    transition: 0.5s;
+}
+
+::placeholder {
+    color: white;
+}
+
+.contact-form-text:focus {
+    box-shadow: 0 0 10px 4px #ffc31f;
+}
+
+textarea.contact-form-text {
+
+    resize: none;
+    height: 120px;
+
+}
+
+.contact-form-btn {
+
+    float: right;
+    background: #ffb71b;
+    color: black;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact-form-btn:hover {
+    background: #fff024;
+}
 
 
-
-
-
-
-                                    /*mobile view home */
-
+/*mobile view home */
 
 
 @media (max-width: 1200px) {
@@ -489,7 +518,7 @@ header .navbar ul li a:hover {
 
     }
 
-    .home{
+    .home {
 
         padding: 1rem 4rem;
 
@@ -513,20 +542,20 @@ header .navbar ul li a:hover {
 
     }
 
-    body{
+    body {
 
         padding: 0;
 
 
     }
 
-    .word{
+    .word {
 
         font-size: 2rem;
 
     }
 
-    .wrapper{
+    .wrapper {
 
         background-color: black;
         height: 6rem;
@@ -537,7 +566,7 @@ header .navbar ul li a:hover {
 
     .homeSpan {
 
-        display:block;
+        display: block;
         height: 100%;
         padding-left: 2rem;
         font-size: 2.1rem;
@@ -549,7 +578,7 @@ header .navbar ul li a:hover {
 
     }
 
-    .menu-btn{
+    .menu-btn {
         display: block;
         position: absolute;
         color: white;
@@ -559,16 +588,16 @@ header .navbar ul li a:hover {
         right: 0;
     }
 
-    .topImg{
+    .topImg {
         display: block;
         height: 20rem;
         width: 20rem;
         border-radius: 50%;
         object-fit: cover;
-      /*  margin-top: 1rem;
-        margin-bottom: 4rem;
-        margin-left: 6rem;*/
-       align-self: center;
+        /*  margin-top: 1rem;
+          margin-bottom: 4rem;
+          margin-left: 6rem;*/
+        align-self: center;
         margin-bottom: 0rem;
         margin-top: 2rem;
         border: 0.8rem solid #f9ca24;
@@ -586,21 +615,20 @@ header .navbar ul li a:hover {
 
     }
 
-                                 /*   About page*/
-
-    .info-img{
+    /*   About page*/
+    .info-img {
 
         padding-right: 1rem;
-        height:20rem;
-        width:20rem;
+        height: 20rem;
+        width: 20rem;
 
 
     }
 
 
-    .aboutInfo{
+    .aboutInfo {
 
-        justify-content:right ;
+        justify-content: right;
         padding-top: .05rem;
         font-size: 1.3rem;
         color: #f9ca24;
@@ -608,8 +636,7 @@ header .navbar ul li a:hover {
     }
 
 
-
-    .about .row{
+    .about .row {
 
         display: flex;
         align-items: center;
@@ -619,7 +646,7 @@ header .navbar ul li a:hover {
     }
 
 
-    .aboutPara{
+    .aboutPara {
 
         padding-right: 2rem;
 
@@ -627,13 +654,7 @@ header .navbar ul li a:hover {
 
 
     /* End HOME mobile view home */
-
-
-                                        /*    start About MOBILE View*/
-
-
-
-
+    /*    start About MOBILE View*/
 
 
 }
