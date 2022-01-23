@@ -19,7 +19,7 @@
 
 *::selection {
 
-    background: var(--yellow);
+    background: #f9ca24;
     color: #333;
 }
 
@@ -39,7 +39,7 @@ html::-webkit-scrollbar-track {
 
 html::-webkit-scrollbar-thumb {
 
-    background: var(--yellow);
+    background: #f9ca24;
 
 }
 
@@ -47,7 +47,8 @@ html::-webkit-scrollbar-thumb {
 
 body {
     scroll-behavior: smooth;
-    background-color: black;
+    background-color: #000000;
+    background-image: linear-gradient(127deg, #000000 0%, #434343 74%);
     overflow: hidden;
     padding-left: 35rem;
 
@@ -70,7 +71,8 @@ header {
     z-index: 1000;
     height: 100%;
     width: 38rem;
-    background: #1a1a1a;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
     display: flex;
     color: white;
     align-items: center;
@@ -79,6 +81,7 @@ header {
     text-align: center;
 
 }
+
 
 header .topSection img {
 
@@ -108,23 +111,22 @@ header .topSection .name {
 header .topSection .name:hover {
 
     padding-left: 60px;
-    color: yellow;
+    background: orange;
 
 }
 
 header .topSection .headerText {
 
-    font-size: 1rem;
+    font-size: 1.8rem;
     color: white;
+    font-weight: bolder;
     padding-bottom: 1rem;
-
 
 }
 
 header .navbar ul {
 
     list-style: none;
-
 
 }
 
@@ -135,13 +137,14 @@ header .navbar ul li a {
     margin: 0.6rem;
     font-size: 2rem;
     color: white;
+    font-weight: bolder;
 
 }
 
 header .navbar ul li a:hover {
 
     padding-left: 60px;
-    color: yellow;
+    color: orange;
 
 }
 
@@ -153,25 +156,12 @@ header .navbar ul li a:hover {
     width: 30px;
 }
 
-#menu {
-
-    position: fixed;
-    top: 2rem;
-    right: 2rem;
-    background: dimgrey;
-    cursor: pointer;
-    font-size: 2.5rem;
-    padding: 1rem 1.5rem;
-    z-index: 1000;
-    display: none;
-
-}
 
 /*Home Section*/
 
 
 .home {
-    color: #f9ca24;
+
     display: flex;
     justify-content: center;
     flex-flow: column;
@@ -230,6 +220,7 @@ header .navbar ul li a:hover {
 }
 
 .myDetail {
+
     color: white;
     padding-left: 1rem;
     font-size: 3.1rem;
@@ -271,7 +262,7 @@ header .navbar ul li a:hover {
 .home :hover {
 
     padding-left: 10px;
-    color: yellow;
+    color: orange;
 
 }
 
@@ -293,7 +284,7 @@ header .navbar ul li a:hover {
 .socialLinks a:hover {
 
     padding-left: 10px;
-    color: yellow;
+    color: orange;
 
 }
 
@@ -504,13 +495,14 @@ header .navbar ul li a:hover {
 
 
 .about .myAbout {
-
+    z-index: 1;
     color: white;
     font-size: 2.5rem;
     display: compact;
 }
 
 .aboutPara {
+
 
     padding-left: 4rem;
     padding-top: 4rem;
@@ -723,7 +715,7 @@ textarea.contact-form-text {
 
     .about .myAbout {
 
-
+        margin-top: 3rem;
         font-size: 1.5rem;
 
     }
